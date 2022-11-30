@@ -1,0 +1,39 @@
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  background:#f5f8fa;
+}
+
+a{
+  text-decoration:none;
+}
+
+input, select, textarea{
+  border-radius:4px;
+  padding:8px 16px;
+  margin-bottom:16px;
+  /* -webkit-appearance: none; */
+  border:2px solid #CDD9ED;
+  transition: border .3s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #275EFE;
+}
+
+label{
+  font-weight:600;
+  font-size:16px;
+  display:block
+}
+
+button{
+  font-size:18px!important;
+}
+
+td svg{
+  cursor:pointer;
+}
